@@ -1,6 +1,6 @@
 provider "aws" {
     version = "2.69.0"
-    region="us-west-1"
+    region="ap-southeast-1"
 }
 
 variable "instance_type" {
