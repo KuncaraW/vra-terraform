@@ -16,7 +16,7 @@ variable "myTag" {
 resource "aws_instance" "machine1" {
     ami           = "ami-0a63cd87767e10ed4"
     instance_type = "t2.micro"
-    availability_zone = "ap-southeast-1"
+    availability_zone = "ap-northeast-1"
     tags = {
       "type" = var.myTag
     }
@@ -25,7 +25,7 @@ resource "aws_instance" "machine1" {
 resource "aws_instance" "machine2" {
     ami           = "ami-0a63cd87767e10ed4"
     instance_type = "t2.micro"
-    availability_zone = "ap-southeast-1"
+    availability_zone = "ap-northeast-1"
     tags = {
       "type" = var.myTag
     }
